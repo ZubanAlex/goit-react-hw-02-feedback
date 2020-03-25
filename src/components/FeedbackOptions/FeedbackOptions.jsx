@@ -4,7 +4,6 @@ import T from "prop-types";
 import styles from "./FeedbackOptions.module.css";
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  console.log(Object.keys(options));
   return (
     <div>
       {Object.keys(options).map(option => {
